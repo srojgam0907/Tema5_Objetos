@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Main1 {
 
-	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner kb= new Scanner(System.in);
