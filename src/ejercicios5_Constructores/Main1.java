@@ -3,7 +3,7 @@ package ejercicios5_Constructores;
 public class Main1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Person1 persona1= new Person1();
 
 	}
 
