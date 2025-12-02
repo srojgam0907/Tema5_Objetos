@@ -12,6 +12,13 @@ public class Person2 {
     	height= 0.0f; 
     	work= "unemployment";
     }
+    
+    public Person2(String name, int age, float height, String work) {
+    	this.name= name;
+    	this.age= age;
+    	this.height= height;
+    	this.work= work;
+    }
  
 	public String getName(){
 		return name;
