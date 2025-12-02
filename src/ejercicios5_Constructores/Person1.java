@@ -6,6 +6,13 @@ public class Person1 {
     private float height;
     private String work;
 
+    public Person1() {
+    	name= "unnamed";
+    	age= 0;
+    	height= 0.0f; 
+    	work= "unemployment";
+    }
+ 
 	public String getName(){
 		return name;
 	}
