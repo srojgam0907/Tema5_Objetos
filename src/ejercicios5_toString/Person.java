@@ -44,5 +44,11 @@ public class Person {
 	public void setWork(String work) {
 		this.work = work;
 	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", work=" + work + "]";
+	}
+	
 	
 }
