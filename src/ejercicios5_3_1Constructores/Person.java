@@ -1,23 +1,16 @@
-package ejercicios5_Constructores;
+package ejercicios5_3_1Constructores;
 
-public class Person2 {
+public class Person {
 	private String name;
 	private int age;
     private float height;
     private String work;
 
-    public Person2() {
+    public Person() {
     	name= "unnamed";
     	age= 0;
     	height= 0.0f; 
     	work= "unemployment";
-    }
-    
-    public Person2(String name, int age, float height, String work) {
-    	this.name= name;
-    	this.age= age;
-    	this.height= height;
-    	this.work= work;
     }
  
 	public String getName(){

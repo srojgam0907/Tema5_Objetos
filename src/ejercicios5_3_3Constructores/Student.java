@@ -1,19 +1,19 @@
-package ejercicios5_Constructores;
+package ejercicios5_3_3Constructores;
 
-public class Student3 {
+public class Student {
 	private int matricula;
 	private String name;
 	private float note1;
 	private float note2;
 	private float media;
 	
-	public Student3(int matricula, String name) {
+	public Student(int matricula, String name) {
 		this.matricula= matricula;
 		this.name= name;
 		
 	}
 	
-	public Student3() {
+	public Student() {
 		
 	}
 	

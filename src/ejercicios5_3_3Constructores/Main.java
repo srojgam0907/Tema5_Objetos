@@ -1,7 +1,7 @@
-package ejercicios5_Constructores;
+package ejercicios5_3_3Constructores;
 import java.util.Scanner;
 
-public class Main3 {
+public class Main {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
@@ -17,7 +17,7 @@ public class Main3 {
 		System.out.println("Introduce tu numero de matricula");
 		matricula= kb.nextInt();
 		
-		Student3 s1= new Student3(matricula, name);
+		Student s1= new Student(matricula, name);
 		
 		System.out.println("Introduce la primera nota");
 		note1= kb.nextFloat();

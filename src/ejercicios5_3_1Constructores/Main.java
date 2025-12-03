@@ -1,9 +1,9 @@
-package ejercicios5_Constructores;
+package ejercicios5_3_1Constructores;
 
-public class Main1 {
+public class Main {
 
 	public static void main(String[] args) {
-		Person1 persona1= new Person1();
+		Person persona1= new Person();
 
 		System.out.println(persona1.toString());
 	}
