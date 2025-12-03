@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		new Main().show();
+
+	}
+	
+	public void show() {
 		@SuppressWarnings("resource")
 		Scanner kb= new Scanner(System.in);
 		Person persona1= new Person();
@@ -36,7 +41,6 @@ public class Main {
 	    System.out.printf("Edad: %d\n", persona1.getAge());
 	    System.out.printf("Altura: %.2f\n", persona1.getHeight());
 	    System.out.printf("Trabajo: %s\n", persona1.getWork());
-
 	}
 	
 }
