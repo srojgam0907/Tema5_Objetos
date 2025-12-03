@@ -1,4 +1,4 @@
-package ejercicios5_Visibilidad;
+package ejercicios5_4_1Visibilidad2;
 
 public class Main {
 
