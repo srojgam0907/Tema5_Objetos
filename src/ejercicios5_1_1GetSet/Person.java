@@ -1,10 +1,10 @@
-package ejercicios5_GetSet;
+package ejercicios5_1_1GetSet;
 
-public class Person1 {
+public class Person {
 	private String name;
-	private int age;
-    private float height;
-    private String work;
+	//private int age;
+    //private float height;
+    //private String work;
 /*
     public Person1() {
     	name= "sara";

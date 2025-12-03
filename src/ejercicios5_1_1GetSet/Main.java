@@ -1,12 +1,12 @@
-package ejercicios5_GetSet;
+package ejercicios5_1_1GetSet;
 import java.util.Scanner;
 
-public class Main1 {
+public class Main {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner kb= new Scanner(System.in);
-		Person1 persona1= new Person1();
+		Person persona1= new Person();
 		String name;
 		
 		System.out.printf("Nombre: %s\n", persona1.getName());
