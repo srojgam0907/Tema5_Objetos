@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		new Main().show();
+		
+	}
+	
+	public void show() {
 		@SuppressWarnings("resource")
 		Scanner kb= new Scanner(System.in);
 		String name;
@@ -17,19 +22,17 @@ public class Main {
 		System.out.println("Introduce tu numero de matricula");
 		matricula= kb.nextInt();
 		
-		Student s1= new Student(matricula, name);
-		
 		System.out.println("Introduce la primera nota");
 		note1= kb.nextFloat();
 		
 		System.out.println("Introduce la segunda nota");
 		note2= kb.nextFloat();
 
+		Student s1= new Student(matricula, name);
 		s1.studentNotes(note1, note2);
 		s1.calcularMedia();
 		
 		System.out.println(s1.toString());
-		
 	}
 
 }

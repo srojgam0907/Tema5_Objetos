@@ -30,9 +30,8 @@ public class Student {
 	}
 
 	@Override
-	public String toString() {
-		return "Student3 [matricula=" + matricula + ", name=" + name + ", note1=" + note1 + ", note2=" + note2
-				+ ", media=" + media + "]";
+	public String toString() { 
+		return String.format("Nombre: %s\nMatricula: %d\nNota 1: %f\nNota 2: %f\nMedia: %f", name, matricula, note1, note2, media); 
 	}
 	
 	
