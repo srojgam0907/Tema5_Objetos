@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		new Main().show();
+		
+	}
+	
+	public void show() {
 		@SuppressWarnings("resource")
 		Scanner kb= new Scanner(System.in);
 		Person persona1= new Person();
