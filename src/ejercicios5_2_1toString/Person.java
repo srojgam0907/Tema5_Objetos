@@ -5,14 +5,7 @@ public class Person {
 	private int age;
     private float height;
     private String work;
-/*
-    public Person1() {
-    	name= "sara";
-    	age= 20;
-    	height= 160; 
-    	work= "student";
-    }
-*/ 
+ 
 	public String getName(){
 		return name;
 	}
@@ -47,7 +40,8 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", work=" + work + "]";
+		return String.format("Nombre: %s\nEdad: %d\nAltura: %f\nTrabajo: %s", name, age, height, work);
+		
 	}
 	
 	
