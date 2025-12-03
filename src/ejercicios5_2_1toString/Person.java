@@ -1,4 +1,4 @@
-package ejercicios5_toString;
+package ejercicios5_2_1toString;
 
 public class Person {
 	private String name;
