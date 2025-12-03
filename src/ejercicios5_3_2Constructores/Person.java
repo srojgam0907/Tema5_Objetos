@@ -54,7 +54,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", work=" + work + "]";
+		return String.format("Nombre: %s\nEdad: %d\nAltura: %f\nTrabajo: %s", name, age, height, work); 
 	}
 	
 }
